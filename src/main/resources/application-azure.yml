@@ -1,0 +1,3 @@
+eureka:
+  instance:
+    hostname: eureka-server-cxgjf0gxbhbsfccz.canadacentral-01.azurewebsites.net #localhost
