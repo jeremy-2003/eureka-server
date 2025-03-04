@@ -68,6 +68,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az wepapp config appsettings set \
+            az webapp config appsettings set \
              --settings SPRING_PROFILES_ACTIVE=azure
           
