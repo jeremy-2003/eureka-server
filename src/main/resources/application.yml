@@ -2,6 +2,8 @@ server:
   port: 8761
 
 eureka:
+  instance:
+    hostname: eureka-server-cxgjf0gxbhbsfccz.canadacentral-01.azurewebsites.net #localhost
   server:
     enable-self-preservation: false
   client:

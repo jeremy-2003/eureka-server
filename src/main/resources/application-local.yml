@@ -1,3 +1,11 @@
+server:
+  port: 8761
+
 eureka:
   instance:
-    hostname: localhost
+    hostname: localhost #eureka-server-cxgjf0gxbhbsfccz.canadacentral-01.azurewebsites.net #localhost
+  server:
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
