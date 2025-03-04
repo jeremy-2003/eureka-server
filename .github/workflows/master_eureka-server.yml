@@ -63,13 +63,3 @@ jobs:
           app-name: 'eureka-server'
           slot-name: 'Production'
           package: '*.jar'
-
-      - name: Configure App Settings for Eureka Server
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-            az webapp config appsettings set \
-              --resource-group com.bank \
-              --name eureka-server \
-              --settings SPRING_PROFILES_ACTIVE=azure
-          
