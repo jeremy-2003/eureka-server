@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost #eureka-server-cxgjf0gxbhbsfccz.canadacentral-01.azurewebsites.net #localhost
+    hostname: eureka-server-cxgjf0gxbhbsfccz.canadacentral-01.azurewebsites.net #localhost
   server:
     enable-self-preservation: false
   client:
