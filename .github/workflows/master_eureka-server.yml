@@ -69,5 +69,7 @@ jobs:
         with:
           inlineScript: |
             az webapp config appsettings set \
-             --settings SPRING_PROFILES_ACTIVE=azure
+              --resource-group com.bank \
+              --name eureka-server-cxgjf0gxbhbsfccz \
+              --settings SPRING_PROFILES_ACTIVE=azure
           
